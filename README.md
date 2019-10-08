@@ -1,11 +1,21 @@
+# Quick start
 Docker-hub address: https://hub.docker.com/r/gordenzhang/
+
+    # tiny-php
+    docker run --rm -v `pwd`:/app -w /app gordenzhang/tiny-php:latest php -v
+    # tiny-swoole
+    docker run --rm -v `pwd`:/app -w /app gordenzhang/tiny-swoole:latest php -v
+    # tiny-nginx-php:basic
+    docker run --rm -v `pwd`:/app -w /app gordenzhang/tiny-nginx-php:basic php -v
+    # tiny-nginx-php-:latest
+    docker run --rm -v `pwd`:/app -w /app gordenzhang/tiny-nginx-php:latest php -v
 
 # Features
 * small storage/transfer size:  
-    * php ~13.5MB
-    * php + nginx: ~18.5MB
-    * php + swoole: ~21MB
-    * php + nginx + many-exts: ~27MB
+    * php: `~13.5MB`
+    * php + nginx: `~18.5MB`
+    * php + swoole: `~21MB`
+    * php + nginx + many-exts: `~27MB`
 * rich php extesions
 
 # Content
