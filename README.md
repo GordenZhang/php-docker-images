@@ -3,10 +3,13 @@ Docker-hub address: https://hub.docker.com/r/gordenzhang/
 
     # tiny-php
     docker run --rm -v `pwd`:/app -w /app gordenzhang/tiny-php:latest php -v
+    
     # tiny-swoole
     docker run --rm -v `pwd`:/app -w /app gordenzhang/tiny-swoole:latest php -v
+    
     # tiny-nginx-php:basic
     docker run --rm -v `pwd`:/app -w /app gordenzhang/tiny-nginx-php:basic php -v
+    
     # tiny-nginx-php-:latest
     docker run --rm -v `pwd`:/app -w /app gordenzhang/tiny-nginx-php:latest php -v
 
