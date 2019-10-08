@@ -3,7 +3,9 @@ CurrentDir="$( cd "$( dirname "$0"  )" && pwd  )"
 ######################################################
 # 在新的容器里构建php扩展
 ######################################################
-cd $CurrentDir/ext-build/tmp
+cd $CurrentDir/ext-build/ 
+mkdir tmp
+cd tmp
 
 # swoole 扩展，版本: 4.4.7
 git clone --branch v4.4.7 --depth=1 https://github.com/swoole/swoole-src.git

@@ -10,7 +10,9 @@ docker build -t gordenzhang/tiny-nginx-php:basic .
 ######################################################
 # 在新的容器里构建php扩展
 ######################################################
-cd $CurrentDir/ext-build/tmp
+cd $CurrentDir/ext-build/ 
+mkdir tmp
+cd tmp
 
 # runkit 扩展，版本: 3.0.0
 git clone --branch 3.0.0 --depth=1 https://github.com/runkit7/runkit7.git
