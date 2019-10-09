@@ -22,7 +22,7 @@ Docker-hub address: https://hub.docker.com/r/gordenzhang/
 * rich php extesions
 
 # Content
-## `basic` vs `latest`
+## Main contents
 
 Content|Version|tiny-php|tiny-swoole|tiny-nginx-php:basic|tiny-nginx-php:latest
 -|-|-|-|-|-
